@@ -1,5 +1,8 @@
 # Demo App (đang phát triển)
-
+![GitHub language count](https://img.shields.io/github/languages/count/Caotrungthanh/app-music-spotify?color=%23e84118&label=language&logo=language)
+![npm bundle size](https://img.shields.io/bundlephobia/min/npm?color=%2344bd32&label=npm)
+![GitHub top language](https://img.shields.io/github/languages/top/Caotrungthanh/app-music-spotify)
+![GitHub followers](https://img.shields.io/github/followers/Caotrungthanh)
 ## Hướng dẫn cài đặt:
  * Bước 1: tải project app-music-spotify.
  * Bước 2: mở CMD(Command Prompt) và nhập app-music-spotify hoặc ấn chuột phải vào file mở git bash.
