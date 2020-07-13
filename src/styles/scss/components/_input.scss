@@ -1,0 +1,40 @@
+.inputSearch {
+  border-radius: 25px;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+}
+
+.input-login, .input-signup
+{
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0.8rem;
+  border-left: 10px solid #f44d95c2 !important;
+  transition: all 0.5s ease-in-out;
+  color: #f097c0 !important;
+  font-size: 1rem;
+  &:focus
+  {
+    border-left: 2px solid #f44d95c2 !important;
+  }
+}
+
+.signup-group
+{
+  &:nth-child(4)
+  {
+
+    /* hide arrow button in input[type=number] */
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    /* Firefox */
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+  }
+}
+

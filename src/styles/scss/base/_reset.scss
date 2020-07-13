@@ -1,0 +1,20 @@
+// Scroll Style
+::-webkit-scrollbar
+{
+    width: 12px;
+}
+
+::-webkit-scrollbar-track 
+{
+    background: $greyLight;
+}
+  
+::-webkit-scrollbar-thumb 
+{
+    background: $greyText;
+}
+
+::-webkit-scrollbar-thumb:hover 
+{
+    background: #555;
+}

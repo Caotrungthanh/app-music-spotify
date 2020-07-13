@@ -1,0 +1,50 @@
+.btnFacebook,
+.btnSpotify,
+.btnGoogle,
+.btn-login {
+  outline: none !important;
+  box-shadow: 0 !important; 
+}
+
+.btnFacebook,
+.btnGoogle,
+.btnSpotify {
+  margin: 0 0.5rem;
+  cursor: pointer;
+  background: $facebook;
+  color: $white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  transition: all 0.8s ease-in-out;
+  &:hover
+  {
+    color: $white;
+    background: $greyLighter;
+  }
+  i
+  {
+    font-size: 1.5rem ;
+  }
+}
+
+.btnGoogle {
+  background: $google;
+}
+
+.btnSpotify {
+  background: $green;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0;
+}
+
+.btn-login {
+  margin: 0 auto;
+  display: block;
+  padding: 0.8rem 2.7rem;
+  background: #f097c0;
+  color: $white;
+  font-size: 1rem;
+  font-weight: 600; 
+}

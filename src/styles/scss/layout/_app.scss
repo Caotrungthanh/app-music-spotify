@@ -1,0 +1,16 @@
+.App
+{
+    height: calc(100vh - 90px);
+    background: $greyLight;
+    display: flex;
+}
+
+.navBar 
+{
+    width: 220px;
+    height: 100%;
+    background: $greyDark;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}

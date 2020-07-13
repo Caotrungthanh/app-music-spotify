@@ -1,0 +1,82 @@
+.navBar 
+{
+    .logo
+    {
+        padding: 1.5rem 0.8rem;
+        svg
+        {
+            max-width: 130px;
+            p
+            {
+                fill: white !important;
+            }
+        }
+    }
+    ul
+    {
+        margin: 0;
+        padding: 0;
+        a
+        {
+            text-decoration: none;
+            li
+            {
+                color: $greyText;
+                list-style: none;
+                border-radius: 5px;
+                padding: 0.6rem;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+                font-size: 0.9rem;
+                display: flex;
+                svg
+                {
+                    width: 20px;
+                    height: 20px;
+                    margin: 0 15px 0 0;
+                }
+                &.active
+                {
+                    background: $greyLighter;
+                }
+                &:hover
+                {
+                    color: white;
+                }
+            }
+        }
+    }
+    .cookies
+    {
+        font-size: 0.5rem;
+        color: $greyText;
+        text-align: center;
+        margin-top: auto;
+        span
+        {
+            display: block;
+        }
+    }
+}
+
+.outerWrap
+{
+    background: grey;
+    height: 100vh;
+    min-height: 100%;
+}
+
+.musicControls
+{
+    background: $greyLighter;
+    text-align: center;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    border: 1px solid $greyDark;
+}

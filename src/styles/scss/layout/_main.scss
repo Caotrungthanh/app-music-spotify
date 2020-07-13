@@ -1,0 +1,159 @@
+.main
+{
+    width: 100%;
+    overflow-y: scroll;
+    position: relative;
+    padding: 4rem 0 0 0;
+    .upperNav
+    {
+        background: $greyNav;
+        height: 56px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 0.8rem 2rem;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        .userDetail
+        {
+            display: flex;
+            background: $greyLight;
+            padding: 0.2rem;
+            border-radius: 25px;
+            .userImage
+            {
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+            }
+            .userName
+            {
+                line-height: 3;
+                margin: 0 0.5rem !important;
+                font-size: 1rem;
+                font-weight: 600;       
+                i
+                {
+                    margin: 0.3rem;
+                }     
+            }
+        }
+    }
+
+}
+
+.mainContent
+{
+    color: white;
+    padding: 1.4rem;
+    .title
+    {
+        font-size: 1.5rem;
+    }
+    .see-all
+    {
+        text-transform: uppercase;
+        float: right;
+    }
+    .sub-title
+    {
+        font-size: 0.9rem;
+        color: $greyText;
+        margin-top: 0.5rem 0;
+    }
+    .cardWrap
+    {
+            .card
+            {
+                background: $greyLighter;
+                border-radius: 10px;
+                width: 196px !important;
+                overflow: hidden;
+                padding: 1.5rem;
+                box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3), 0 1px 2px 0 rgba(0,0,0,0.2);
+                margin: 0.5rem;
+                .cardImage
+                {
+                    height: 200px;
+                    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3), 0 1px 2px 0 rgba(0,0,0,0.2);
+                    position: relative;
+                    img
+                    {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                    .cardContent
+                    {
+                        position: absolute;
+                        z-index: 1;
+                        color: white;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, 50px);
+                        h4
+                        {
+                            font-weight: 600;
+                            font-size: 1.2rem;
+                            overflow: hidden;
+                            height: 22px;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            -webkit-line-clamp: 3;
+                        }
+                    }
+                }
+
+            }
+        
+.cardFeatured
+{
+    background: #282828;
+    border-radius: 10px;
+    width: 196px !important;
+    height: 250px;
+    overflow: hidden;
+    padding: 1.5rem;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin: 0.5rem;
+    .cardImage
+    {
+        height: 160px;
+        box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3), 0 1px 2px 0 rgba(0,0,0,0.2);
+        img
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .cardContent
+    {
+        padding: 1.4rem 0;
+        h3
+        {
+            font-weight: 600;
+            font-size: 1.2rem;
+            overflow: hidden;
+            height: 22px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 3;
+        }
+        h4
+        {
+            overflow: hidden;
+            height: 25px;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 3;
+            white-space: nowrap;
+            margin: 0;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+    }
+}

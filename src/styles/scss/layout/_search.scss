@@ -1,0 +1,6 @@
+.inputSearch, .btnSearch {
+    &:focus {
+        box-shadow: none;
+        outline: none;
+    }
+}

@@ -1,0 +1,48 @@
+.form
+{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(50deg, #f44d95c2 59%, #f097c0 65%);
+    &--login
+    {
+        background: #f3f3f3;
+        width: 800px;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 25px;
+        padding: 1.5rem;
+        &__image
+        {
+            img
+            {
+                width: 100%;
+                height: 100%;
+            }
+        }   
+        &__auth
+        {
+            margin: auto;
+            h1
+            {
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                font-family: Arial, sans-serif;
+                font-weight: 600;
+            }
+            .social
+            {
+                &--login
+                {
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                }
+
+            }
+        }
+    }
+}
